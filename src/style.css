@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import "tailwindcss";
 
-.textShadow{
-    text-shadow: #000 4px 4px 2px;
+@theme {
+  --font-russo: "Russo One", sans-serif;
+}
+
+.textShadow {
+  text-shadow: #000 4px 4px 2px;
 }
