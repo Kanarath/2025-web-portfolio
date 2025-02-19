@@ -1,16 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/assets/gmsLogoIcon.svg">
-    <link href="/src/styles.css" rel="stylesheet">
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./public/assets/gmsLogoIcon.svg"
+    />
+    <link href="/src/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G.M.S</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+  <body class="w-screen bg-[url(./public/assets/background.svg)] bg-cover">
+    <nav
+      class="object-top w-screen border justify-items-center relative sticky"
+    >
+      <img
+        src="./public/assets/navBarShadow.png"
+        class="justify-between"
+        alt="Navigation Bar"
+      />
+      <img
+        src="./public/assets/gmsLogo.svg"
+        alt="g.m.s logo"
+        class="absolute top-10 left-44"
+      />
+      <button>Home</button>
+      <button>Projects</button>
+      <button>Skills</button>
+      <button>About</button>
+    </nav>
+    <h1 class="">Hello world!</h1>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
