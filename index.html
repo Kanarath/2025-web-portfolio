@@ -21,9 +21,9 @@
     <title>G.M.S</title>
   </head>
   <body
-    class="w-screen bg-[url(./public/assets/background.svg)] bg-cover font-russo text-white"
+    class="w-screen bg-[url(./public/assets/background.svg)] bg-cover font-russo text-white overflow-x-hidden"
   >
-    <nav class="object-top w-screen justify-items-center relative sticky">
+    <nav class="container mx-auto max-w-full object-top w-screen justify-items-center relative sticky">
       <img
         src="./public/assets/navBarShadow.png"
         class="justify-between"
@@ -32,17 +32,19 @@
       <img
         src="./public/assets/gmsLogo.svg"
         alt="g.m.s logo"
-        class="absolute top-10 left-44"
+        class="absolute top-10 left-84"
       />
-      <div class="flex absolute top-14 right-50 gap-x-8 text-2xl">
+      <div class="flex absolute top-14 right-84 gap-x-8 text-2xl">
         <button class="textShadow">&lt;Home /&gt;</button>
         <button class="textShadow">&lt;Projects /&gt;</button>
         <button class="textShadow">&lt;Skills /&gt;</button>
         <button class="textShadow">&lt;About /&gt;</button>
       </div>
     </nav>
-    <div class="">
-      <h1 class="">Hello world!</h1>
+    <div class="container mx-auto max-w-full">
+      <h1 class="text-4xl absolute left-[500px] top-76">&lt;Gerard Montero Sellares /&gt;</h1>
+      <h2 class="text-2xl absolute left-[620px] top-86">{ Frontend Developer }</h2>
+      <img src="./public/assets/avatar.png" alt="Avatar image" class="absolute top-30 right-10" />
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
